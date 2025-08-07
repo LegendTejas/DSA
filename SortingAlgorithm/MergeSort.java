@@ -1,5 +1,6 @@
 package SortingAlgorithm;
 // Divide and Conquer aproach
+// Time Complexity: O(n log n)
 
 public class MergeSort {
 	public static void divide(int arr[], int start, int end) {
@@ -52,3 +53,4 @@ public class MergeSort {
 		System.out.println();
 	}
 }
+

@@ -19,15 +19,15 @@ public class RadixSort {
         return max;
     }
 
-    // Counting sort based on a specific digit (exp)
-    static void countingSort(int[] arr, int exp) {
+    // Counting sort based on a specific digit (place)
+    static void countingSort(int[] arr, int place) {
         int n = arr.length;
         int[] output = new int[n]; // output array
         int[] count = new int[10]; // for digits 0-9
 
         // Store the count of occurrences
         for (int i = 0; i < n; i++) {
-            int digit = (arr[i] / exp) % 10;
+            int digit = (arr[i] / place) % 10;
             count[digit]++;
         }
 
@@ -38,7 +38,7 @@ public class RadixSort {
 
         // Build the output array (traverse arr in reverse for stability)
         for (int i = n - 1; i >= 0; i--) {
-            int digit = (arr[i] / exp) % 10;
+            int digit = (arr[i] / place) % 10;
             output[count[digit] - 1] = arr[i];
             count[digit]--;
         }
@@ -53,9 +53,9 @@ public class RadixSort {
     static void radixSort(int[] arr) {
         int max = getMax(arr); // Find the maximum number to know the number of digits
 
-        // Apply counting sort to each digit (exp = 1, 10, 100, ...)
-        for (int exp = 1; max / exp > 0; exp *= 10) {
-            countingSort(arr, exp);
+        // Apply counting sort to each digit (place = 1, 10, 100, ...)
+        for (int place = 1; max / place > 0; place *= 10) {
+            countingSort(arr, place);
         }
     }
 

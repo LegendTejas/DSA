@@ -1,3 +1,16 @@
+// Problem Description: Create a class FunCalculator which calculates an Armstrong number and a lucky number. 
+// An Armstrong number is one in which the sum of the cube of the digits of a number results in the number itself. 
+// A lucky number is a number where the sum of squares of every even positioned digit (starting from the second position) is a multiple of 9.
+
+// For e.g: 
+// 153 = 13+53+33 = 153 is an Armstrong number.
+// 1623 = 62+32 = 45 is a multiple of 9 and hence is a Lucky number.
+
+// Choice-based behavior:
+// choice == 1 → check Armstrong number.
+// choice == 2 → check Lucky number.
+// Any other choice → print "Invalid choice".
+    
 import java.util.Scanner;
 
 class FunCalculator {

@@ -1,3 +1,5 @@
+// Linked list using collection framework
+
 package LinkedList;
 
 import java.util.LinkedList;
@@ -62,4 +64,5 @@ public class Linked_list {
         }
         System.out.println("null");
     }
+
 }

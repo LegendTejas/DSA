@@ -8,19 +8,18 @@
 
 ---
 
-<h2 style="text-align: center;"><b>Follow this order to study in an efficient way:</b></h2>
+## Follow this order to study in an efficient way:
 
- 
-1. Array & Hashing
-2. Loops
-3. Recursion
-4. Searching Algorithm
-5. Linked List
-6. Stack
-7. Queue
-8. Sorting Algorithm
-9. Binary Tree
-10. Binary Search Tree
+1. [Array & Hashing](https://github.com/LegendTejas/DSA/tree/main/Arrays%20%26%20Hashing)
+2. [Loops](https://github.com/LegendTejas/DSA/tree/main/Loops)
+3. [Recursion](https://github.com/LegendTejas/DSA/tree/main/Recursion)
+4. [Searching Algorithm](https://github.com/LegendTejas/DSA/tree/main/SearchingAlgorithm)
+5. [Linked List](https://github.com/LegendTejas/DSA/tree/main/LinkedList)
+6. [Stack](https://github.com/LegendTejas/DSA/tree/main/Stack)
+7. [Queue](https://github.com/LegendTejas/DSA/tree/main/Queue)
+8. [Sorting Algorithm](https://github.com/LegendTejas/DSA/tree/main/SortingAlgorithm)
+9. [Binary Tree](https://github.com/LegendTejas/DSA/tree/main/Binary%20Tree)
+10. [Binary Search Tree](https://github.com/LegendTejas/DSA/tree/main/Binary%20Search%20Tree)
 11. Heaps
 12. Tries
 13. Graphs
